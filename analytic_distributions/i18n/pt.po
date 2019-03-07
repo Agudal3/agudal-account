@@ -1,0 +1,358 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* analytic_distributions
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 10.0+pro+pro+pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-18 16:45+0000\n"
+"PO-Revision-Date: 2019-02-18 16:45+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1623
+#, python-format
+msgid " seconds"
+msgstr " segundos"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:100
+#: code:addons/analytic_distributions/static/src/js/base.js:105
+#, python-format
+msgid "Account"
+msgstr "Conta"
+
+#. module: analytic_distributions
+#: model:ir.ui.view,arch_db:analytic_distributions.account_analytic_distr_form_view
+#: model:ir.ui.view,arch_db:analytic_distributions.account_analytic_distr_tree_view
+msgid "Account Analytic Distribution Template"
+msgstr "Modelo de Distribuição Analítica"
+
+#. module: analytic_distributions
+#: model:ir.model,name:analytic_distributions.model_account_move
+msgid "Account Entry"
+msgstr "Movimento da Conta"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:140
+#: code:addons/analytic_distributions/static/src/js/base.js:144
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_amount
+#, python-format
+msgid "Amount"
+msgstr "Montante"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:152
+#: code:addons/analytic_distributions/static/src/js/base.js:158
+#, python-format
+msgid "Analytic Acc."
+msgstr ""
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_analytic_account_id
+msgid "Analytic Account"
+msgstr "Conta de Analítica"
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_template_analytic_account_ids
+msgid "Analytic Accounts"
+msgstr "Contas de Analítica"
+
+#. module: analytic_distributions
+#: model:ir.actions.act_window,name:analytic_distributions.action_account_analytic_distr_form
+#: model:ir.ui.menu,name:analytic_distributions.account_analytic_def_account
+msgid "Analytic Distribution Templates"
+msgstr "Modelos de Distibuição Analítica"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1200
+#, python-format
+msgid "Bank Reconciliation"
+msgstr "Reconciliação Bancária"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:81
+#: code:addons/analytic_distributions/static/src/js/base.js:2010
+#, python-format
+msgid "Choose counterpart"
+msgstr "Escolha contrapartida"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1627
+#, python-format
+msgid "Congrats, you're all done !"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:78
+#: code:addons/analytic_distributions/static/src/js/base.js:2007
+#, python-format
+msgid "Create Write-off"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:2696
+#, python-format
+msgid "Create writeoff"
+msgstr ""
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_create_uid
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_template_create_uid
+msgid "Created by"
+msgstr "Criada por"
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_create_date
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_template_create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_currency_id
+msgid "Currency"
+msgstr "Moeda"
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_display_name
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_template_display_name
+msgid "Display Name"
+msgstr "Nome a Exibir"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:30
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:36
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_move_line_distribution_template_id
+#, python-format
+msgid "Distribution Template"
+msgstr "Modelo de Distribuição"
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_move_line_analytic_distribution_ids
+msgid "Distributions"
+msgstr "Distribuições"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1631
+#, python-format
+msgid "Efficiency at its finest"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1639
+#, python-format
+msgid "Fast reconciler"
+msgstr ""
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_id
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_template_id
+msgid "ID"
+msgstr "Id."
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1928
+#, python-format
+msgid "Incorrect Operation"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:2262
+#, python-format
+msgid "Invoices & Payments Matching"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:2298
+#: code:addons/analytic_distributions/static/src/js/base.js:2303
+#, python-format
+msgid "Journal"
+msgstr "Diário"
+
+#. module: analytic_distributions
+#: model:ir.model,name:analytic_distributions.model_account_move_line
+msgid "Journal Item"
+msgstr "Item do Diário"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:2261
+#, python-format
+msgid "Journal Items to Reconcile"
+msgstr "Itens do Diário para Reconciliar"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:114
+#: code:addons/analytic_distributions/static/src/js/base.js:118
+#, python-format
+msgid "Label"
+msgstr ""
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution___last_update
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_template___last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_template_write_uid
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_template_write_date
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_write_date
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_move_line_id
+msgid "Move Line"
+msgstr "Linha do Movimento"
+
+#. module: analytic_distributions
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_name
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution_template_name
+msgid "Name"
+msgstr "Nome"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1632
+#, python-format
+msgid "Only use the ctrl-enter shortcut to validate reconciliations."
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:84
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:116
+#: code:addons/analytic_distributions/static/src/js/base.js:2013
+#: code:addons/analytic_distributions/static/src/js/base.js:2045
+#: code:addons/analytic_distributions/static/src/js/base.js:2188
+#, python-format
+msgid "Open balance"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1866
+#, python-format
+msgid "Partner"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:62
+#: code:addons/analytic_distributions/static/src/js/base.js:1991
+#: code:addons/analytic_distributions/static/src/js/base.js:2680
+#, python-format
+msgid "Reconcile"
+msgstr "Reconciliar"
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/xml/account_reconciliation_template.xml:5
+#, python-format
+msgid "Reconcile With Multiple Analytic Accounts"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:152
+#: code:addons/analytic_distributions/static/src/js/base.js:2326
+#, python-format
+msgid "Reconciling "
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1894
+#, python-format
+msgid "Select Partner"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:2683
+#, python-format
+msgid "Skip"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1640
+#, python-format
+msgid "Take on average less than 5 seconds to reconcile a transaction."
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:126
+#: code:addons/analytic_distributions/static/src/js/base.js:131
+#, python-format
+msgid "Tax"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1615
+#, python-format
+msgid "There you go, it's all done !"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:83
+#: code:addons/analytic_distributions/static/src/js/base.js:2012
+#, python-format
+msgid "Validate"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1626
+#, python-format
+msgid "Whew, that was fast !"
+msgstr ""
+
+#. module: analytic_distributions
+#. openerp-web
+#: code:addons/analytic_distributions/static/src/js/base.js:1929
+#, python-format
+msgid "You cannot mix items from receivable and payable accounts."
+msgstr ""
+
+#. module: analytic_distributions
+#: model:ir.model,name:analytic_distributions.model_account_analytic_distribution
+msgid "account.analytic.distribution"
+msgstr ""
+
+#. module: analytic_distributions
+#: model:ir.model,name:analytic_distributions.model_account_analytic_distribution_template
+msgid "account.analytic.distribution.template"
+msgstr ""
+

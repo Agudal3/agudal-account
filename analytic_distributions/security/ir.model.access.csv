@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_analytic_distribution_template,account_analytic_distribution_template.user,model_account_analytic_distribution_template,account.group_account_user,1,1,1,1
+access_account_analytic_distribution,account_analytic_distribution.user,model_account_analytic_distribution,account.group_account_user,1,1,1,1

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="account_analytic_distr_form_view" model="ir.ui.view">
+         <field name="name">account.analytic.distribution.template.form</field>
+         <field name="model">account.analytic.distribution.template</field>
+         <field name="type">form</field>
+         <field name="arch" type="xml">
+             <form string="Account Analytic Distribution Template">
+                    <group>
+					    <field name="name"/>
+					    <field name="analytic_account_ids" widget="many2many_tags"/>
+                    </group>
+			   </form>
+         </field>
+     </record>
+
+		<record model="ir.ui.view" id="account_analytic_distr_tree_view">
+			<field name="name">account.analytic.distribution.template.tree</field>
+			<field name="model">account.analytic.distribution.template</field>
+			<field name="type">tree</field>
+			<field name="arch" type="xml">
+			   <tree string="Account Analytic Distribution Template" >
+					<field name="name"/>
+					<!--<field name="analytic_account_ids"/>-->
+			   </tree>
+			</field>
+		</record>
+
+        <record id="action_account_analytic_distr_form" model="ir.actions.act_window">
+            <field name="name">Analytic Distribution Templates</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">account.analytic.distribution.template</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem action="action_account_analytic_distr_form" id="account_analytic_def_account"
+                    parent="account.menu_analytic_accounting"
+                    groups="analytic.group_analytic_accounting" sequence="9"/>
+    </data>
+</odoo>
