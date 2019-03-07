@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates id="coisas" xml:space="preserve">
+    <t t-extend="account.manual_reconciliation_line">
+        <t t-jquery=".accounting_view" t-operation="prepend">
+            <button class="button_reconcile_multiple btn btn-default btn-sm">Reconcile With Multiple Analytic Accounts</button>
+        </t>
+    </t>
+</templates>
