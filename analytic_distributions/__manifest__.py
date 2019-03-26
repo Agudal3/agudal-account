@@ -15,6 +15,7 @@
         'views/account.xml',
         'views/account_analytic_distribution.xml',
         'views/account_move_line.xml',
+        'views/account_invoice.xml',
         'security/ir.model.access.csv'
     ],
     'qweb': [

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0+pro+pro+pro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-18 16:45+0000\n"
-"PO-Revision-Date: 2019-02-18 16:45+0000\n"
+"POT-Creation-Date: 2019-03-26 14:03+0000\n"
+"PO-Revision-Date: 2019-03-26 14:03+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -31,6 +31,12 @@ msgid "Account"
 msgstr "Conta"
 
 #. module: analytic_distributions
+#: model:ir.model,name:analytic_distributions.model_account_analytic_distribution
+msgid "Account Analytic Distribution"
+msgstr "Distribuição Analítica"
+
+#. module: analytic_distributions
+#: model:ir.model,name:analytic_distributions.model_account_analytic_distribution_template
 #: model:ir.ui.view,arch_db:analytic_distributions.account_analytic_distr_form_view
 #: model:ir.ui.view,arch_db:analytic_distributions.account_analytic_distr_tree_view
 msgid "Account Analytic Distribution Template"
@@ -40,6 +46,12 @@ msgstr "Modelo de Distribuição Analítica"
 #: model:ir.model,name:analytic_distributions.model_account_move
 msgid "Account Entry"
 msgstr "Movimento da Conta"
+
+#. module: analytic_distributions
+#: code:addons/analytic_distributions/models/account_invoice.py:62
+#, python-format
+msgid "Account Move Line"
+msgstr ""
 
 #. module: analytic_distributions
 #. openerp-web
@@ -83,11 +95,10 @@ msgstr "Reconciliação Bancária"
 
 #. module: analytic_distributions
 #. openerp-web
-#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:81
 #: code:addons/analytic_distributions/static/src/js/base.js:2010
 #, python-format
 msgid "Choose counterpart"
-msgstr "Escolha contrapartida"
+msgstr ""
 
 #. module: analytic_distributions
 #. openerp-web
@@ -98,7 +109,6 @@ msgstr ""
 
 #. module: analytic_distributions
 #. openerp-web
-#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:78
 #: code:addons/analytic_distributions/static/src/js/base.js:2007
 #, python-format
 msgid "Create Write-off"
@@ -136,8 +146,9 @@ msgstr "Nome a Exibir"
 
 #. module: analytic_distributions
 #. openerp-web
-#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:30
-#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:36
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:29
+#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:35
+#: model:ir.model.fields,field_description:analytic_distributions.field_account_invoice_line_distribution_template_id
 #: model:ir.model.fields,field_description:analytic_distributions.field_account_move_line_distribution_template_id
 #, python-format
 msgid "Distribution Template"
@@ -176,11 +187,21 @@ msgid "Incorrect Operation"
 msgstr ""
 
 #. module: analytic_distributions
+#: model:ir.model,name:analytic_distributions.model_account_invoice
+msgid "Invoice"
+msgstr "Fatura"
+
+#. module: analytic_distributions
+#: model:ir.model,name:analytic_distributions.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Linha de Fatura"
+
+#. module: analytic_distributions
 #. openerp-web
 #: code:addons/analytic_distributions/static/src/js/base.js:2262
 #, python-format
 msgid "Invoices & Payments Matching"
-msgstr ""
+msgstr "Invoices & Payments Matching"
 
 #. module: analytic_distributions
 #. openerp-web
@@ -208,7 +229,7 @@ msgstr "Itens do Diário para Reconciliar"
 #: code:addons/analytic_distributions/static/src/js/base.js:118
 #, python-format
 msgid "Label"
-msgstr ""
+msgstr "Label"
 
 #. module: analytic_distributions
 #: model:ir.model.fields,field_description:analytic_distributions.field_account_analytic_distribution___last_update
@@ -244,12 +265,10 @@ msgstr "Nome"
 #: code:addons/analytic_distributions/static/src/js/base.js:1632
 #, python-format
 msgid "Only use the ctrl-enter shortcut to validate reconciliations."
-msgstr ""
+msgstr "."
 
 #. module: analytic_distributions
 #. openerp-web
-#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:84
-#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:116
 #: code:addons/analytic_distributions/static/src/js/base.js:2013
 #: code:addons/analytic_distributions/static/src/js/base.js:2045
 #: code:addons/analytic_distributions/static/src/js/base.js:2188
@@ -266,12 +285,11 @@ msgstr ""
 
 #. module: analytic_distributions
 #. openerp-web
-#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:62
 #: code:addons/analytic_distributions/static/src/js/base.js:1991
 #: code:addons/analytic_distributions/static/src/js/base.js:2680
 #, python-format
 msgid "Reconcile"
-msgstr "Reconciliar"
+msgstr ""
 
 #. module: analytic_distributions
 #. openerp-web
@@ -282,7 +300,6 @@ msgstr ""
 
 #. module: analytic_distributions
 #. openerp-web
-#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:152
 #: code:addons/analytic_distributions/static/src/js/base.js:2326
 #, python-format
 msgid "Reconciling "
@@ -326,7 +343,6 @@ msgstr ""
 
 #. module: analytic_distributions
 #. openerp-web
-#: code:addons/analytic_distributions/static/src/js/account_reconciliation_widgets.js:83
 #: code:addons/analytic_distributions/static/src/js/base.js:2012
 #, python-format
 msgid "Validate"
@@ -344,15 +360,5 @@ msgstr ""
 #: code:addons/analytic_distributions/static/src/js/base.js:1929
 #, python-format
 msgid "You cannot mix items from receivable and payable accounts."
-msgstr ""
-
-#. module: analytic_distributions
-#: model:ir.model,name:analytic_distributions.model_account_analytic_distribution
-msgid "account.analytic.distribution"
-msgstr ""
-
-#. module: analytic_distributions
-#: model:ir.model,name:analytic_distributions.model_account_analytic_distribution_template
-msgid "account.analytic.distribution.template"
 msgstr ""
 
