@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models
+from odoo import api, fields, models, _
 import logging
 
 _logger = logging.getLogger(__name__)
@@ -12,7 +12,6 @@ class AccountInvoice(models.Model):
     @api.model
     def line_get_convert(self, line, part):
         res = super(AccountInvoice, self).line_get_convert(line, part)
-        _logger.info(line)
         res['distribution_template_id'] = line.get('distribution_template_id', False)
         return res
 
@@ -46,7 +45,7 @@ class AccountInvoice(models.Model):
                 'analytic_tag_ids': analytic_tag_ids,
                 'distribution_template_id': line.distribution_template_id and line.distribution_template_id.id
             }
-            _logger.info(line.distribution_template_id)
+
             if line['account_analytic_id']:
                 move_line_dict['analytic_line_ids'] = [(0, 0, line._get_analytic_line())]
             res.append(move_line_dict)
@@ -57,11 +56,11 @@ class AccountInvoice(models.Model):
         res = super(AccountInvoice, self).invoice_validate()
         # If there is any distribution template, then returns an account move line tree view with the move_id context
         if any(line.distribution_template_id for line in self.invoice_line_ids):
-            domain = [('move_id', '=', self.move_id.id)]
+            domain = [('move_id', 'in', self.move_id.line_ids.ids)]
             return {
-                'name': _('Account Move Line'),
+                'name': _('Analytic Entries'),
                 'domain': domain,
-                'res_model': 'account.move.line',
+                'res_model': 'account.analytic.line',
                 'type': 'ir.actions.act_window',
                 'view_id': False,
                 'view_mode': 'tree,form',
