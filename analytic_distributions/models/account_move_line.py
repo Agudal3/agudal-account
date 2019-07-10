@@ -20,10 +20,10 @@ class AccountMoveLine(models.Model):
     #         vals.pop('credit')
     #     return super(AccountMoveLine, self).write(vals)
 
-    @api.model
-    def create(self, vals):
-        _logger.info("{}: {}".format("", vals))
-        return super(AccountMoveLine, self).create(vals)
+    # @api.model
+    # def create(self, vals):
+    #     _logger.info("{}: {}".format("", vals))
+    #     return super(AccountMoveLine, self).create(vals)
 
     @api.multi
     def write(self, vals):
